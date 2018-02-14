@@ -27,13 +27,13 @@ class Chart extends Component{
     render(){
       return(
         <div>
-          <h2>Doughnut Examplewdwd</h2>
+          <h2>Doughnut Example</h2>
           <Bar
             data={this.data}
             options={{
               title:{
                 display:true,
-                text:'Largesst Cities in ' + this.props.location,
+                text:'Your gradebook is in ' + this.props.location,
                 fontSize:25
               },
 

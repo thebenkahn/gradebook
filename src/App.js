@@ -4,7 +4,7 @@ import './App.css';
 import Form from './components/Form';
 import Chart from './components/Chart'
 
-
+//adding a comment about git
 class App extends Component {
   state = {
     fields: {}
@@ -24,7 +24,7 @@ class App extends Component {
       <div className="App">
         <Form onChange={fields => this.onChange(fields)}/>
 
-        <Chart location="my butt"/>
+        <Chart location="Oregon"/>
 
       </div>
     );
